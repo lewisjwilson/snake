@@ -39,6 +39,7 @@ function main(currentTime) {
 window.requestAnimationFrame(main);
 
 function update() {
+  console.log("update")
   updateSnake(); //from snake.js
   updateFood(); //from food.js
   checkDeath();
